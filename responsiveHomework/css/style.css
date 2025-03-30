@@ -1,0 +1,34 @@
+/* Estilos predeterminados para móviles */
+div {
+    width: 100%;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    max-height: 50vh;
+}
+
+/* Media Query para Tableta (772px o más) */
+@media (min-width: 772px) {
+    div {
+        width: 45%; /* Los divs ocupan el 45% de la anchura */
+        display: inline-block;
+    }
+
+    img {
+        max-height: 30vh; /* Las imágenes no ocupan más del 30% de la altura de la ventana gráfica */
+    }
+}
+
+/* Media Query para Pantalla Grande (998px o más) */
+@media (min-width: 998px) {
+    div {
+        width: 30%; /* Los divs ocupan el 30% de la anchura */
+        display: inline-block;
+    }
+
+    img {
+        max-height: 30vh; /* Mantiene el límite de la altura de las imágenes */
+    }
+}
